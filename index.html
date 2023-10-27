@@ -34,7 +34,24 @@
 <body>
    <!-- header section start -->
    <div class="header_section">
-      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+               <a class="nav-item nav-link" href="#about"> О Нас</a>
+               <a class="nav-item nav-link" href="#catalog">Каталог</a>
+               <a class="nav-item nav-link" href="#actions">Акции</a>
+               <a class="nav-item nav-link" href="#otzyvy">Отзывы</a>
+               <a class="nav-item nav-link" href="#delivery">Доставка</a>
+               <a class="nav-item nav-link" href="#contacts">Контакты</a>
+            </div>
+         </div>
+         
+      </nav>
       <!-- banner section end -->
       <div class="banner_section layout_padding">
          <div id="main_slider" class="carousel slide" data-ride="carousel">
@@ -63,7 +80,7 @@
    </div>
    <!-- header section end -->
    <!-- about section start -->
-   <div class="about_section layout_padding">
+   <div id="about" class="about_section layout_padding">
       <div id="my_main_slider" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
             <div class="carousel-item active">
@@ -120,7 +137,7 @@
    </div>
    <!-- booking section end -->
    <!-- services section start -->
-   <div class="services_section layout_padding">
+   <div id="catalog" class="services_section layout_padding">
       <div class="container">
          <h1 class="services_taital">КАТАЛОГ</h1><br>
          <p class="services_text">-Фруктовые чипсы (яблоко, банан, груша, дыня, арбуз, киви, манго, клубника, кокос, апельсин, мандарин, лимон)<br>
@@ -133,61 +150,127 @@
          <div class="services_section_2 layout_padding">
             <div class="row">
                <div class="col-md-6">
-                  <div class="box_main active">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
                      <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n1.jpg"></div>
-                     </div>   
+                        <div class="cup_img_1">
+                           <img src="images/pear.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff;padding: 20px 30px;">Фрипсы из груш 50гр. 250руб.</center>  
                   </div>
-                  <div class="box_main">
-                     <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n2.jpg"></div>
-                     </div>
-                    
-                  </div>
-                  <div class="box_main">
-                     <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n3.jpg"></div>
-                     </div>
-                     
-                  </div>
+                  
+                  
                </div>
                <div class="col-md-6">
-                  <div class="box_main">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
                      <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n4.jpg"></div>
-                     </div>
-                    
+                        <div class="cup_img_1">
+                           <img src="images/banan.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff; padding: 20px 30px;">Фрипсы банан 50гр. 150руб.</center>  
                   </div>
-                  <div class="box_main">
-                     <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n5.jpg"></div>
-                     </div>
-                    
-                  </div>
-                  <div class="box_main">
-                     <div class="left_main">
-                        <div class="cup_img_1"><img src="images/n6.jpg"></div>
-                     </div>
-                    
-                  </div>
+                  
                </div>
             </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
+                     <div class="left_main">
+                        <div class="cup_img_1">
+                           <img src="images/qiwi.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff;padding: 20px 30px;">Фрипсы из киви 50гр. 250руб.</center>  
+                  </div>
+                  
+                  
+               </div>
+               <div class="col-md-6">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
+                     <div class="left_main">
+                        <div class="cup_img_1">
+                           <img src="images/orange.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff; padding: 20px 30px;">Фрипсы апельсин 50гр. 250руб.</center>  
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
+                     <div class="left_main">
+                        <div class="cup_img_1">
+                           <img src="images/spice.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff;padding: 20px 30px;">Специи для глинтвейна 250руб.</center>  
+                  </div>
+                  
+                  
+               </div>
+               <div class="col-md-6">
+                  <div class="box_main active" style="background-color: #e5c2a6;">
+                     <div class="left_main">
+                        <div class="cup_img_1">
+                           <img src="images/aple.jpeg">
+                           
+                        </div>
+                        
+                     </div> 
+                     <center style="color: green; font-size: 20px;text-shadow: 1px 0 0px #fff, 
+                           0 1px 0px #fff, 
+                           -1px 0 0px #fff, 
+                           0 -1px 0px #fff; padding: 20px 30px;">Фрипсы яблоко 50гр. 210руб.</center>  
+                  </div>
+                  
+               </div>
+            </div>
+
+
          </div>
          
       </div>
    </div>
    
-   <div class="untree_co-section pb-0" id="services-section">
+   <div class="untree_co-section pb-0" >
       <div class="container">
         <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
+          <div id="actions" class="col-lg-7 text-center mx-auto">
             <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Акции</strong></h2>
             <p class="gsap-reveal-hero">Максимально выгодно</p>
             
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" >
 
           <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="service text-center">
@@ -207,7 +290,7 @@
           <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="service text-center">
               
-               <h1>1</h1>
+               <h1>3</h1>
               <p class="gsap-reveal-hero">- При покупке от 6ти наборов, подарок сюрприз (чай, кофе, варенье, орехи)</p>
             </div>
           </div>
@@ -223,38 +306,67 @@
       </div>
     </div>
 
-
-  
-    <div class="untree_co-section testimonial-wrap">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Отзывы</strong></h2>
-            <p class="gsap-reveal-hero">Что говорят клиенты...</p>
-
-            - Спасибо огромное!!!!! Это нереально вкусное лакомство. Всем советую!!!!!<br>
-            -Вкусная красота. Немного лета, солнца и яркого настроения дождливым весенним утром. Задорная сладость к чашке чая<br>
-            -Моим девчонкам нравится, а это главное<br>
-            -Ребенок рад<br>
-            -Все как обещано. Рука не подымается такую красоту распечатать и скушать. Но я справлюсь! Вау-эффект. Даже не верится, что это продукт 
-            для еды, а не стильный элемент декора. Так и хочется его поставить и им любоваться. Очень красивая баночка. И упаковка прекрасная. Спасибо продавцу-порадовал в серое глухозимье ярким изумрудом.<br>
-            
-          </div>
-        </div>
-
-
-        <div data-aos="fade-left" data-aos-delay="200">
-
-
-
-         
-        </div>
-        
+    <div id="otzyvy" class="clients_section layout_padding">
+      <div id="custum_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <h1 class="clients_taital">Что говорят наши клиенты</h1>
+                  <p class="clients_text">- Спасибо огромное!!!!! Это нереально вкусное лакомство. Всем советую!!!!!</p>
+                  <div class="client_img"><img src="images/person_1.jpg" width="300"></div>
+                  <div class="border"></div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="clients_taital">Что говорят наши клиенты</h1>
+                  <p class="clients_text">-Моим девчонкам нравится, а это главное</p>
+                  <div class="client_img"><img src="images/person_2.jpg" width="300"></div>
+                 
+                  <div class="border"></div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="clients_taital">Что говорят наши клиенты</h1>
+                  <p class="clients_text">-Вкусная красота. Немного лета, солнца и яркого настроения дождливым весенним утром. Задорная сладость к чашке чая</p>
+                  <div class="client_img"><img src="images/person_3.jpg" width="300"></div>
+                  
+                  <div class="border"></div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="clients_taital">Что говорят наши клиенты</h1>
+                  <p class="clients_text">-Ребенок рад</p>
+                  <div class="client_img"><img src="images/Jennifer-Baugh-Testimonial.webp" width="300"></div>
+                  
+                  <div class="border"></div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="clients_taital">Что говорят наши клиенты</h1>
+                  <p class="clients_text">-Все как обещано. Рука не подымается такую красоту распечатать и скушать. Но я справлюсь! Вау-эффект. Даже не верится, что это продукт 
+                     для еды, а не стильный элемент декора. Так и хочется его поставить и им любоваться. Очень красивая баночка. И упаковка прекрасная. Спасибо продавцу-порадовал в серое глухозимье ярким изумрудом.</p>
+                  <div class="client_img"><img src="images/Testimonial-Jacomien-Nel.jpg" width="300"></div>
+                  
+                  <div class="border"></div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#custum_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-left"></i>
+         </a>
+         <a class="carousel-control-next" href="#custum_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+         </a>
       </div>
-      
-    </div>
+   </div>
+  
+    
 
-    <div class="untree_co-section testimonial-wrap">
+    <div id="delivery" class="untree_co-section testimonial-wrap">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 text-center mx-auto">
@@ -281,7 +393,7 @@
 
 
 
-   <div class="site-footer">
+   <div id="contacts" class="site-footer">
       <div class="container">
 
         <div class="row">
